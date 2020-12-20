@@ -86,14 +86,14 @@ public class CanvasNavigation : MonoBehaviour
     {
         if ((int)timer == timeToInteract)
         {
-            if (zone.text == "Playzone 180°")
+            if (zone.text == "Игровая зона 180°")
             {
-                zone.text = "Playzone 360°";
+                zone.text = "Игровая зона 360°";
                 GameController.instance.diff = -180;
             }
             else
             {
-                zone.text = "Playzone 180°";
+                zone.text = "Игровая зона 180°";
                 GameController.instance.diff = 0;
             }
         }
